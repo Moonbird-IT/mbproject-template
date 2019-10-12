@@ -4,12 +4,13 @@ This git can be used to set up an empty mbFramework-based project. It includes m
 
 ### Clone the repository
 
-Clone the git into a directory of your choice.
+Clone the git repository into a directory of your choice.
 
 ### Setting it up
 
 Set up a virtual directory inside your webserver that uses the "public" directory as its home directory.
-Sample: 
+
+Sample for Apache: 
 
     Alias "/myproject" "D:\projects\myproject\public"
 
@@ -17,12 +18,10 @@ Sample:
 
 Open up your browser and launch (if using "myproject" as Alias and localhost for development):
 
-http://localhost/myproject
+http://localhost/myproject/
 
 You should see two regions containing some sample data. It's now safe to remove the sample controller, view, backend and model.
 
-### Setting up the project on a developer system
+### Usage hints
 
-Open up "project.ini" inside the /etc/dev folder.
-
-TBC.
+More in-depth information about how to use the framework can be found in the README.md of the mbFramework.
